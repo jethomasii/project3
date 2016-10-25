@@ -1,4 +1,4 @@
-# xkcd Password Generator
+# Lorem Ipsum Password Generator
 
 ## URL
 https://p3.jethomasii.me
