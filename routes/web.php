@@ -11,6 +11,9 @@
 |
 */
 
+# DummyText route
+Route::get('/dummytext', 'DummyText@index')->name('dummytext.index');
+
 Route::get('/', function () {
     return view('welcome');
 });
