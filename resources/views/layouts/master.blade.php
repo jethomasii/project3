@@ -23,7 +23,7 @@
     <nav>
         <ul>
             <li><a href='/dummytext'>Generate DummyText</a></li>
-            <li><a href='/createuser'>Make Some Users</a></li>
+            <li><a href='/createuserdata'>Make Some Users</a></li>
         </ul>
     </nav>
 
