@@ -14,6 +14,9 @@
 # DummyText route
 Route::get('/dummytext', 'DummyText@index')->name('dummytext.index');
 
+# CreateUserData route
+Route::get('/createuserdata', 'CreateUserData@index')->name('createuserdata.index');
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
