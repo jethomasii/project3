@@ -12,5 +12,6 @@ class DummyText extends Controller
     public function index()
     {
       return 'Dummy Text';
+      return LoremServiceProvider(1);
     }
 }
