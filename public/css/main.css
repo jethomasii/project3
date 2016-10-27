@@ -1,0 +1,40 @@
+/*
+    James Thomas
+    Student, Harvard Extension School
+    Austin, TX USA
+    http://jethomasii.me
+
+    main.css
+
+*/
+body {
+    text-align: left;
+    font-family: Helvetica;
+    color: #000000;
+}
+
+header {
+  text-align: left;
+  font-family: Futura;
+  color: #000000;
+}
+
+a {
+  color #0000FF;
+}
+
+a:visited {
+  color: #DC143C;
+}
+
+h1 {
+    font-family: Futura;
+    color #000000;
+}
+
+input[type=submit] {
+    padding: 7px;
+    background-color: #000000;
+    font-size: 1rem;
+    color: white;
+}
