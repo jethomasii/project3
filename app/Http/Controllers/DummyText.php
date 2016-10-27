@@ -23,7 +23,7 @@ class DummyText extends Controller
       $text ='';
 
       for ($y = 0; $y < $x; $y++) {
-        $text = $text . '<p>' .  $client->medium()->text(3); . '</p>';
+        $text = $text . '<p>' .  $client->medium()->text(3) . '</p>';
       }
 
       return $text;
