@@ -1,14 +1,16 @@
 @extends('layouts.master')
 
-@section('title', 'So many 2 buttons')
+@section('title', 'So many 2 links')
 
 @section('content')
 
-      <nav>
-          <ul>
-              <li><a href='/dummytext/create'>Generate DummyText</a></li>
-              <li><a href='/createuserdata'>Make Some Users</a></li>
-          </ul>
-      </nav>
+
+              <a href='/dummytext/create'>Generate DummyText</a>
+              <br>
+              <p>Ever thought, "Hey I should make some lorem ipsum text for no reason?" Well now you can!</p>
+              <a href='/createuserdata'>Make Some Users</a>
+              <br>
+              <p>These user names are ridiculous, ridiculous I say!</p>
+
 
 @endsection

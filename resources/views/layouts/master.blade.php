@@ -10,6 +10,8 @@
 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
+    <link href='/css/main.css' type='text/css' rel='stylesheet'>
+
     {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
     @yield('head')
 
@@ -17,7 +19,7 @@
 <body>
 
     <header>
-        <a href='/'>Home</a>
+        <a href='/'><h1>Developer's Best Friend</h1></a>
     </header>
 
     <section>
@@ -26,6 +28,7 @@
     </section>
 
     <footer>
+        <br>
         &copy; {{ date('Y') }}
     </footer>
 
