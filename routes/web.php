@@ -12,7 +12,7 @@
 */
 
 # DummyText route
-Route::get('/dummytext', 'DummyText@index')->name('dummytext.index');
+Route::get('/dummytext', 'DummyText@create')->name('dummytext.create');
 
 # Create some dummy text
 Route::get('/dummytext/create', 'DummyText@create')->name('dummytext.create');
