@@ -11,6 +11,7 @@ body {
     text-align: left;
     font-family: Helvetica;
     color: #000000;
+    padding-left: 02%;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
 }
 
 a {
-  color #0000FF;
+  color #`0000FF`;
 }
 
 a:visited {
