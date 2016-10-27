@@ -50,7 +50,13 @@ class CreateUserData extends Controller
 
         // Handle additional options here:
         if ($birthDate) {
-          $text = $text . '<br>' . '4/1/1976';
+
+          $year = 2016 - rand( 0, 116 );
+          $month = rand( 1, 12 );
+          $day = rand( 1, 28 );
+          $date = $month . '/' . $day . '/' . $year;
+
+          $text = $text . '<br>' . $date;
         }
 
         if ($bio) {
