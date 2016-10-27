@@ -20,14 +20,6 @@
         <a href='/'>Home</a>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href='/dummytext'>Generate DummyText</a></li>
-            <li><a href='/createuserdata'>Make Some Users</a></li>
-        </ul>
-    </nav>
-
-
     <section>
         {{-- Main page content will be yielded here --}}
         @yield('content')
@@ -35,10 +27,6 @@
 
     <footer>
         &copy; {{ date('Y') }}
-    </footer>
-
-    <footer>
-        &copy; {{ date('Y') }} &nbsp;&nbsp;
     </footer>
 
     {{-- Yield any page specific JS files or anything else you might want at the end of the body --}}
