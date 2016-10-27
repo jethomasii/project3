@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 use project3\Http\Requests;
 
+use Magyarjeti\Loripsum\Client;
+use Magyarjeti\Loripsum\Http\CurlAdapter;
+
 class CreateUserData extends Controller
 {
     // this will never be used, it was just here for testing
@@ -46,10 +49,23 @@ class CreateUserData extends Controller
         $text = $text . '<p>' . $name[0] . ' ' . $name[1];
 
         // Handle additional options here:
+        if ($birthDate) {
+          $text = $text . '<br>' . '4/1/1976';
+        }
 
+        if ($bio) {
+          $client = new Client(new CurlAdapter);
+          $bioText = $client->short()->text(1);
+          $text = $text . '<br>' . $bioText;
+        }
 
         // Finish the paragraph.
         $text = $text . '</p>';
+      }
+
+      // Set defaults if not set
+      if (!$numberOfUsers) {
+        $numberOfUsers = 5;
       }
 
       return view('users.create')->with([
