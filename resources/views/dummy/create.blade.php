@@ -8,7 +8,7 @@
 
         {{ csrf_field() }}
 
-        Number of Paragraphs: <input type='text' name='numberOfParagraphs' value='{{ old("title") }}'>(Max 25)
+        Number of Paragraphs: <input type='text' name='numberOfParagraphs' value='{{ $prevParagraphs }}'>(Max 25)
         <br>
 
         <input type='submit' value='Generate'>

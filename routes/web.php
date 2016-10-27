@@ -20,7 +20,10 @@ Route::get('/dummytext/create', 'DummyText@create')->name('dummytext.create');
 Route::post('/dummytext/create', 'DummyText@create')->name('dummytext.create');
 
 # CreateUserData route
-Route::get('/createuserdata', 'CreateUserData@index')->name('createuserdata.index');
+Route::get('/createuserdata', 'CreateUserData@create')->name('createuserdata.create');
+
+# Create some dummy users
+Route::post('/createuserdata', 'CreateUserData@create')->name('createuserdata.create');
 
 Route::get('/', function () {
     return view('landing');
