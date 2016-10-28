@@ -7,7 +7,7 @@ https://p3.jethomasii.me
 This is my third project for CSCI E-15. It generates lorem ipsum text in paragraphs and some rudimentary user data such as name, birthdate and filler profile/bio inforamtion. 
 
 ## Demo
-Coming soon...
+https://vimeo.com/189241459
 
 ## Misc
 The landing page includes links to generate some dummy text or generate some dummy users. Once there, a simple HTML form is presented that offers options based on the text you want to generate. When submitted the resultant text is offered below the form.
