@@ -5,10 +5,10 @@
 @section('content')
 
 
-              <a href='/dummytext/create'>Generate DummyText</a>
+              <a href='/dummytext/create'><h2>Generate DummyText</h2></a>
               <br>
               <p>Ever thought, "Hey I should make some lorem ipsum text for no reason?" Well now you can!</p>
-              <a href='/createuserdata'>Make Some Users</a>
+              <a href='/createuserdata'><h2>Make Some Users</h2></a>
               <br>
               <p>These user names are ridiculous, ridiculous I say!</p>
 
